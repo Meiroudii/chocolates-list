@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chocolates!</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+	<link rel="icon" href="https://fav.farm/%E2%9C%8A%F0%9F%8F%BD"/>
+</head>
+<body>
+	<form class="search-form">
+	  <input type="text" class="search" placeholder="Chocolates!">
+	  <ul class="suggestions">
+		<li>Filter for a chocolate</li>
+	  </ul>
+	</form>
+	<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
